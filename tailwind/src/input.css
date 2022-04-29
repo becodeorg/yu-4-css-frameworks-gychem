@@ -15,3 +15,15 @@
     width: 140px;
     height: 142px;
 }
+
+.guarantee50 {
+    background-image: url('../src/images/guarantee50.png');
+    width: 203px;
+    height: 203px;
+}
+
+.question {
+    background-image: url('../src/images/vraagteken.png');
+    width: 131px;
+    height: 87px;
+}
