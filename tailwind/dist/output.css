@@ -524,6 +524,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
+.ml-56 {
+  margin-left: 14rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -538,14 +542,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-20 {
   margin-bottom: 5rem;
-}
-
-.ml-56 {
-  margin-left: 14rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
 }
 
 .flex {
