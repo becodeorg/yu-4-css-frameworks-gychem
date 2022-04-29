@@ -480,8 +480,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 7rem;
 }
 
-.mt-36 {
-  margin-top: 9rem;
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .mt-3 {
@@ -496,6 +500,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 1.5rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.mt-80 {
+  margin-top: 20rem;
+}
+
 .flex {
   display: flex;
 }
@@ -504,8 +524,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3.5rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.h-\[589px\] {
+  height: 589px;
 }
 
 .w-4\/5 {
@@ -516,16 +536,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
-.w-40 {
-  width: 10rem;
+.w-60 {
+  width: 15rem;
 }
 
 .w-5\/6 {
   width: 83.333333%;
-}
-
-.w-60 {
-  width: 15rem;
 }
 
 .list-inside {
@@ -556,11 +572,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
-.bg-slate-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-}
-
 .bg-slate-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
@@ -579,10 +590,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-neutral-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 212 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\/images\/man\.png\'\)\] {
-  background-image: url('./images/man.png');
 }
 
 .py-2 {
@@ -633,14 +640,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.header-image-man {
-  background-image: url('./images/man.png');
-  background-repeat: no-repeat;
+.bg-header {
+  background-color: #8B9AA0;
 }
 
-.hover\:bg-slate-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+.header-manimage {
+  background-image: url('../src/images/man.png');
+}
+
+.header-playbutton {
+  background-image: url('../src/images/playbutton.png');
+  width: 140px;
+  height: 142px;
 }
 
 .hover\:bg-neutral-700:hover {
@@ -648,6 +659,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
-.bg-header {
-  background-color: #8B9AA0;
+.hover\:bg-slate-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }

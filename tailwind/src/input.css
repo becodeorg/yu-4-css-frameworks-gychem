@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-header {
+    background-color: #8B9AA0;
+}
+
+.header-manimage {
+    background-image: url('../src/images/man.png');
+}
+
+.header-playbutton {
+    background-image: url('../src/images/playbutton.png');
+    width: 140px;
+    height: 142px;
+}
