@@ -544,6 +544,66 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-36 {
+  margin-left: 9rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-44 {
+  margin-left: 11rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-52 {
+  margin-left: 13rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.ml-60 {
+  margin-left: 15rem;
+}
+
+.ml-64 {
+  margin-left: 16rem;
+}
+
+.ml-72 {
+  margin-left: 18rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -564,8 +624,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2.25rem;
 }
 
-.h-48 {
-  height: 12rem;
+.h-56 {
+  height: 14rem;
 }
 
 .w-4\/5 {
@@ -594,6 +654,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .list-inside {
@@ -630,10 +710,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .gap-8 {
@@ -744,8 +820,54 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.75rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -781,8 +903,35 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
@@ -815,6 +964,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
+.text-slate-300 {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
 .bg-header {
   background-color: #8B9AA0;
 }
@@ -845,6 +999,48 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../src/images/playtestimonials.png');
   width: 306px;
   height: 194px;
+}
+
+.dialogue {
+  background-image: url('../src/images/dialogue.png');
+  width: 110px;
+  height: 106px;
+}
+
+.progress {
+  background-image: url('../src/images/progress.png');
+  width: 97px;
+  height: 105px;
+}
+
+.q-a {
+  background-image: url('../src/images/q&a.png');
+  width: 98px;
+  height: 76px;
+}
+
+.support {
+  background-image: url('../src/images/support.png');
+  width: 98px;
+  height: 94px;
+}
+
+.laptop-phone-apple {
+  background-image: url('../src/images/laptop-phone-apple.png');
+  width: 563px;
+  height: 465px;
+}
+
+.stopwatch {
+  background-image: url('../src/images/stopwatch.png');
+  width: 200px;
+  height: 237px;
+}
+
+.progress-bars {
+  background-image: url('../src/images/progress-bars.png');
+  width: 232px;
+  height: 180px;
 }
 
 .hover\:bg-neutral-700:hover {

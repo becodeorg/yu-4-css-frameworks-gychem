@@ -33,3 +33,45 @@
     width: 306px;
     height: 194px;
 }
+
+.dialogue {
+    background-image: url('../src/images/dialogue.png');
+    width: 110px;
+    height: 106px;
+}
+
+.progress {
+    background-image: url('../src/images/progress.png');
+    width: 97px;
+    height: 105px;
+}
+
+.q-a {
+    background-image: url('../src/images/q&a.png');
+    width: 98px;
+    height: 76px;
+}
+
+.support {
+    background-image: url('../src/images/support.png');
+    width: 98px;
+    height: 94px;
+}
+
+.laptop-phone-apple {
+    background-image: url('../src/images/laptop-phone-apple.png');
+    width: 563px;
+    height: 465px;
+}
+
+.stopwatch {
+    background-image: url('../src/images/stopwatch.png');
+    width: 200px;
+    height: 237px;
+}
+
+.progress-bars {
+    background-image: url('../src/images/progress-bars.png');
+    width: 232px;
+    height: 180px;
+}
