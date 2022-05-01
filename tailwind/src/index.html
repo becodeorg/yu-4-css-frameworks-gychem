@@ -65,13 +65,13 @@
 
     <nav class="w-4/5 h-20 border border-slate-300">
       <div class="flex">
-        <div class="w-28 ml-28 h-9 mt-6  flex justify-center items-center bg-slate-600 text-white text-xl">
+        <div class="w-28 ml-28 h-9 mt-6  flex justify-center items-center bg-slate-600 text-white text-xl hidden lg:flex">
           <!-- Logo -->
           <div class="place-items-center">THE LOGO</div>
         </div>
 
         <div class="flex w-5/6 mr-28 justify-end">
-          <ul class="flex mt-7 mr-8 gap-6 text-slate-500">
+          <ul class="flex flex-col lg:flex-row mt-7 mr-8 gap-6 text-slate-500">
             <li class="">Overview</li>
             <li>One-on-One</li>
             <li>Testimonials</li>
@@ -85,7 +85,7 @@
     <section class="w-4/5 border-x border-slate-300">
       <div class="ml-28 mt-28 mr-28">
         <div class="flex">
-          <div class="w-3/5">
+          <div class="lg:w-3/5">
             <div class="text-red-700 font-semibold">Lorem ipsum dolor</div>
             <div class="mt-2 text-3xl text-sky-600 font-serif">Learn what you need to know</div>
             <div class="mt-4">
@@ -94,12 +94,11 @@
               lobortis henderit lectus porta eget.
             </div>
           </div>
-          <div class="w-2/5 flex justify-center">
-            <div class="question mt-8">
-            </div>
+          <div class="flex justify-center hidden lg:flex lg:w-2/5">
+            <div class="question mt-8"></div>
           </div>
         </div>
-        <div class="flex mt-20">
+        <div class="flex flex-col mt-5 lg:mt-20 lg:flex-row">
           <div class="">
             <div class="bg-slate-200 py-7 px-4 rounded-md">
               <ul class="bg-white w-[300px] text-slate-600">
@@ -134,7 +133,7 @@
               </ul>
             </div>
           </div>
-          <div class="ml-44 w-3/5">
+          <div class="lg:w-3/5 lg:ml-44 mt-5">
             <div class="text-red-700 font-semibold">Pellentesqu habitant</div>
             <div class="mt-2 text-3xl text-sky-600 font-serif">Class aptent taciti sociousqe</div>
             <div class="mt-4">
@@ -146,8 +145,8 @@
           </div>
         </div>
 
-        <div class="flex mt-20 mb-20">
-          <div class="w-3/5">
+        <div class="flex lg:mt-20 mt-5 mb-20">
+          <div class="lg:w-3/5">
             <div class="text-red-700 font-semibold">50 Point guarantee</div>
             <div class="mt-2 text-3xl text-sky-600 font-serif">A guarantee our competitors would't dare make</div>
             <div class="mt-4">
@@ -156,7 +155,7 @@
               adipiscing erat vel dui tincidunt eget commodo arcu fringilla.
             </div>
           </div>
-          <div class="w-2/5 flex justify-center">
+          <div class="w-2/5 flex justify-center hidden lg:flex">
             <div class="guarantee50 "></div>
           </div>
         </div>
@@ -168,9 +167,9 @@
     <section class="w-4/5 border border-slate-300 pb-20">
       <div class="mt-24">
         <div class="text-slate-400 text-center text-4xl">One-on-One</div>
-        <div class="flex ml-28 mt-12">
+        <div class="flex ml-28 mr-28 gap-4 mt-12">
           <div class="w-6/12 flex">
-            <div class="w-3/5">
+            <div class="lg:w-3/5">
               <div class="text-red-700 font-semibold">Conversational format</div>
               <div class="mt-2 text-3xl text-sky-600 font-serif">Dialogue with a tutor</div>
               <div class="mt-4">
@@ -180,12 +179,12 @@
                 adipiscing elit.
               </div>
             </div>
-            <div class="w-2/5 flex justify-center items-center">
+            <div class="lg:w-2/5 flex justify-center items-center hidden lg:flex">
               <div class="dialogue"></div>
             </div>
           </div>
           <div class="w-6/12 flex">
-            <div class="w-3/5">
+            <div class="lg:w-3/5">
               <div class="text-red-700 font-semibold">One-to-one tutor sessions</div>
               <div class="mt-2 text-3xl text-sky-600 font-serif">Personalized support</div>
               <div class="mt-4">
@@ -195,15 +194,15 @@
                 adipiscing elit.
               </div>
             </div>
-            <div class="w-2/5 flex justify-center items-center">
+            <div class="lg:w-2/5 flex justify-center items-center hidden lg:flex">
               <div class="support"></div>
             </div>
           </div>
         </div>
 
-        <div class="flex ml-28 mt-14">
+        <div class="flex ml-28 mr-28 gap-4 mt-14">
           <div class="w-6/12 flex">
-            <div class="w-3/5">
+            <div class="lg:w-3/5">
               <div class="text-red-700 font-semibold">Dashboard</div>
               <div class="mt-2 text-3xl text-sky-600 font-serif">Keep track of your progress</div>
               <div class="mt-4">
@@ -213,12 +212,12 @@
                 adipiscing elit.
               </div>
             </div>
-            <div class="w-2/5 flex justify-center  items-center">
+            <div class="lg:w-2/5 flex justify-center items-center hidden lg:flex">
               <div class="progress"></div>
             </div>
           </div>
           <div class="w-6/12 flex">
-            <div class="w-3/5">
+            <div class="lg:w-3/5">
               <div class="text-red-700 font-semibold">Ask a tutor</div>
               <div class="mt-2 text-3xl text-sky-600 font-serif">Get answers from the experts</div>
               <div class="mt-4">
@@ -228,7 +227,7 @@
                 adipiscing elit.
               </div>
             </div>
-            <div class="w-2/5 flex justify-center  items-center">
+            <div class="lg:w-2/5 flex justify-center items-center hidden lg:flex">
               <div class="q-a"></div>
             </div>
           </div>
@@ -239,20 +238,20 @@
 
       <div class="text-slate-400 text-center text-4xl mt-24">Testimonials</div>
 
-      <div class="flex justify-center gap-8 mt-14">
+      <div class="flex flex-col lg:flex-row justify-center gap-8 mt-14">
 
-        <div class="text-center">
-          <div class="playtestimonials"></div>
+        <div class="text-center place-items-center">
+          <center><div class="playtestimonials"></div></center>
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>
         </div>
         <div class="text-center">
-          <div class="playtestimonials"></div>
+          <center><div class="playtestimonials"></div></center>
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>
         </div>
         <div class="text-center">
-          <div class="playtestimonials"></div>
+          <center><div class="playtestimonials"></div></center>
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>
         </div>
@@ -264,9 +263,9 @@
 
       <div class="text-slate-400 text-center text-4xl mt-24">Wait, there's more!</div>
 
-      <div class="ml-28 mt-20">
+      <div class="ml-28 mr-28 lg:mr-0 mt-20">
         <div class="flex">
-          <div class="mt-28 w-3/5">
+          <div class="lg:mt-28 lg:w-3/5">
             <div class="text-red-700 font-semibold">Learn anywhere</div>
             <div class="mt-2 text-3xl text-sky-600 font-serif">Learn anywhere, anytime</div>
             <div class="mt-4">
@@ -275,13 +274,13 @@
               Integer aliquet commodo pulvinar. Quisque a purus velit.
             </div>
           </div>
-          <div class="flex justify-end w-full">
+          <div class="flex justify-end w-full hidden lg:flex">
             <div class="laptop-phone-apple mt-8"></div>
           </div>
         </div>
-        <div class="flex mt-20 w-full">
-          <div class="stopwatch ml-20"></div>
-          <div class="ml-56 mt-10 w-6/12">
+        <div class="flex mt-20 lg:w-full">
+          <div class="stopwatch ml-20 hidden lg:flex"></div>
+          <div class="lg:ml-56 lg:mt-10 lg:w-6/12 lg:mr-28">
             <div class="text-red-700 font-semibold">Practise exams</div>
             <div class="mt-2 text-3xl text-sky-600 font-serif">Feugiat consequat dictum et lacus</div>
             <div class="mt-4">
@@ -293,7 +292,7 @@
         </div>
 
         <div class="flex mt-20 mb-20">
-          <div class="w-6/12">
+          <div class="lg:w-6/12">
             <div class="text-red-700 font-semibold">Progress reports</div>
             <div class="mt-2 text-3xl text-sky-600 font-serif">Aliquam arcu elit</div>
             <div class="mt-4">
@@ -302,8 +301,8 @@
               pulvinar. Quisque a purus velit.
             </div>
           </div>
-          <div class="w-6/12">
-            <div class="progress-bars ml-40"></div>
+          <div class="lg:w-6/12">
+            <div class="progress-bars ml-40 hidden lg:flex"></div>
           </div>
         </div>
 

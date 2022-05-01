@@ -4,5 +4,13 @@ https://frameworks-gychem.netlify.app/
 
 To-Do
 ------------------
-functionalities: functional play buttons with youtube videos and working links 
+functionalities:
+    - working links
+    - play videos in testimonials
+
 Responsiveness
+    - images
+    - navbar, buttons
+    - text block model 
+
+
