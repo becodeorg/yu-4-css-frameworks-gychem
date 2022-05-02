@@ -21,7 +21,8 @@
 
         <div class="flex sm:w-5/6 place-items-center mt-7 justify-center md:justify-end">
           <div class=""><button class="bg-header text-white py-2 px-6 rounded-full">SUPPORT</button></div>
-          <div class=""><button class="bg-slate-500 hover:bg-neutral-700 text-white py-1 px-4 h-18 rounded-full">LOGIN</button></div>
+          <div class=""><button
+              class="bg-slate-500 hover:bg-neutral-700 text-white py-1 px-4 h-18 rounded-full">LOGIN</button></div>
         </div>
       </div>
 
@@ -46,11 +47,16 @@
 
         <div class="flex w-full justify-center mr-28 mt-8 xl:mt-0">
           <div class="header-manimage flex justify-center h-[589px] w-60">
-           
-            <button onclick="startClick(headervideoblock,'player','M7lc1UVf-VE')"><div id="headerplaybutton" class="header-playbutton mt-80"></div></button>
-            <div id="headervideoblock" class="absolute ml-8 h-[390px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[640px] bg-slate-300/[.25] mt-32 rounded hidden">
-              <div class="ml-4"><button onclick="stopClick(headervideoblock)"><font color="red">X</font> close video</button></div>
-                <div id="player" class=""></div>
+
+            <button onclick="startClick(headervideoblock,'player','M7lc1UVf-VE')">
+              <div id="headerplaybutton" class="header-playbutton mt-80"></div>
+            </button>
+            <div id="headervideoblock"
+              class="absolute ml-8 h-[390px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[640px] bg-slate-300/[.25] mt-32 rounded hidden">
+              <div class="ml-4"><button onclick="stopClick(headervideoblock)">
+                  <font color="red">X</font> close video
+                </button></div>
+              <div id="player" class=""></div>
             </div>
 
             <script src="headervideo.js"></script>
@@ -75,7 +81,8 @@
             <li>Testimonials</li>
             <li>More</li>
           </ul>
-          <button class="bg-red-600 h-10 w-48 hover:bg-slate-700 text-white mt-4 py-2 px-6 rounded-full">MAIN CTA BUTTON</button>
+          <button class="bg-red-600 h-10 w-48 hover:bg-slate-700 text-white mt-4 py-2 px-6 rounded-full">MAIN CTA
+            BUTTON</button>
         </div>
       </div>
     </nav>
@@ -238,35 +245,45 @@
 
       <div class="flex flex-col lg:flex-row justify-center gap-8 mt-14">
 
-        <div class="text-center place-items-center">
-          
-          <div id="testimonialsvideoblock" class="absolute mt-0 h-[180px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
-            <div class="ml-4"><button onclick="stopClick(testimonialsvideoblock)"><font color="red">X</font> close video</button></div>
-              <div id="player2" class=""></div>
+        <div class="text-center flex flex-col items-center"> 
+
+          <div id="testimonialsvideoblock"
+            class="absolute flex-col mt-0 h-[180px] w-[290px] bg-slate-300/[.25] rounded hidden">
+            <div class="ml-4"><button onclick="stopClick(testimonialsvideoblock)">
+                <font color="red">X</font> close video
+              </button></div>
+            <div id="player2" class=""></div>
           </div>
-          <button onclick="startClick(testimonialsvideoblock,'player2','-jix4KyxLuQ')"><center><img src="images/playtestimonials.png"></center></button>
+          <button onclick="startClick(testimonialsvideoblock,'player2','-jix4KyxLuQ')">
+            <center><img src="images/playtestimonials.png"></center>
+          </button>
 
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>
         </div>
-        <div class="text-center">
-         
-          <div id="testimonialsvideoblock2" class="absolute mt-0 h-[180px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
-            <div class="ml-4"><button onclick="stopClick(testimonialsvideoblock2)"><font color="red">X</font> close video</button></div>
-              <div id="player3" class=""></div>
+        <div class="text-center flex flex-col items-center"> 
+
+          <div id="testimonialsvideoblock2"
+            class="absolute flex-col mt-0 h-[180px] w-[290px] bg-slate-300/[.25] rounded hidden">
+            <div class="ml-4"><button onclick="stopClick(testimonialsvideoblock2)">
+                <font color="red">X</font> close video
+              </button></div>
+            <div id="player3" class=""></div>
           </div>
-          <button onclick="startClick(testimonialsvideoblock2,'player3','hdI2bqOjy3c')"><center><img src="images/playtestimonials.png"></center></button>
+          <button onclick="startClick(testimonialsvideoblock2,'player3','hdI2bqOjy3c')">
+            <center><img src="images/playtestimonials.png"></center>
+          </button>
 
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>
         </div>
-        <div class="text-center">
-          
-          <div id="testimonialsvideoblock3" class="absolute mt-0 h-[180px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
+        <div class="text-center flex flex-col items-center"> 
+
+          <div id="testimonialsvideoblock3" class="absolute flex-col mt-0 h-[180px] w-[290px] bg-slate-300/[.25] rounded hidden">
             <div class="ml-4"><button onclick="stopClick(testimonialsvideoblock3)"><font color="red">X</font> close video</button></div>
-              <div id="player4" class=""></div>
+            <div id="player4" class=""></div>
           </div>
-          <button onclick="startClick(testimonialsvideoblock3,'player4','rRgD1yVwIvE')"><center><img src="images/playtestimonials.png"></center></button>
+          <button class="flex justify-center" onclick="startClick(testimonialsvideoblock3,'player4','rRgD1yVwIvE')"><img src="images/playtestimonials.png"></button>
 
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>

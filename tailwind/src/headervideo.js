@@ -43,7 +43,7 @@ function startAttempt(id,playertarget,playerVideoId) {
 function startFunction() {   
     playeractive = 1;
     player.mute(); player.seekTo(1, true);  
-    divid.style.display = "block"; 
+    divid.style.display = "flex"; 
 }
 
 function onPlayerStateChange(event) {

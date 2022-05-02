@@ -6,15 +6,14 @@ To-Do
 ------------------
 functionalities:
     - working links
-    - fix close video when more videos are opened at the same time
 
 Responsiveness
     for Tablet [V]
     for Phone [V]
 
-    1 improve header
+    1 improve header image and buttons
     2 improve navbar
-    4 improve images
+
 
 
 
