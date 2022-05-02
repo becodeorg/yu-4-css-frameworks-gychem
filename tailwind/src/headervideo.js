@@ -4,10 +4,17 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+var playeractive; 
 var player;
-var siteid = "none";
+var divid;
+
 function startClick(id,playertarget,playerVideoId) {
-    siteid = id;
+    startAttempt(id,playertarget,playerVideoId);
+}
+
+function loadVideo(id,playertarget,playerVideoId) {    
+    divid = id;
+
     player = new YT.Player(`${playertarget}`, {
         height: '100%', 
         width: '100%', 
@@ -20,13 +27,23 @@ function startClick(id,playertarget,playerVideoId) {
             'onStateChange': onPlayerStateChange
         }
     });
-}            
+}   
 
-function startFunction() {  
-    console.log("step2 - startfunction");  
+function startAttempt(id,playertarget,playerVideoId) {   
+    if(playeractive == 1) { 
+        stopClick(divid);
+        startClick(id,playertarget,playerVideoId);
+    } 
+    else if(playeractive == undefined)
+    {  
+        loadVideo(id,playertarget,playerVideoId);
+    }
+}
+
+function startFunction() {   
+    playeractive = 1;
     player.mute(); player.seekTo(1, true);  
-    console.log(siteid);
-    siteid.style.display = "block";   
+    divid.style.display = "block"; 
 }
 
 function onPlayerStateChange(event) {
@@ -35,13 +52,17 @@ function onPlayerStateChange(event) {
   }
 }
 
-function unMuteVideo() { player.unMute();}
-function stopClick() { stopVideo() }
+function unMuteVideo() { 
+    player.unMute();
+}
 
-function stopVideo() { 
-    siteid.style.display = "none"; 
-    player.destroy();
-    player.stopVideo();
-    console.log(siteid);
-     
+function stopClick(divid) { 
+    playeractive = undefined;
+    stopVideo(divid);
+}
+
+function stopVideo(divid) { 
+    divid.style.display = "none"; 
+    player.stopVideo(); 
+    player.destroy();   
 }
