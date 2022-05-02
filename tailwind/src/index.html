@@ -45,16 +45,15 @@
         </div>
 
         <div class="flex w-full justify-center mr-28 mt-8 xl:mt-0">
-          <div class="header-manimage flex justify-center  h-[589px] w-60">
+          <div class="header-manimage flex justify-center h-[589px] w-60">
            
-            <button onclick="startClick(headervideoblock)"><div id="headerplaybutton" class="header-playbutton mt-80"></div></button>
-            <div id="headervideoblock" class="absolute bg-slate-300/[.25] mt-28 rounded p-4 hidden">
-              <button onclick="stopClick()"><font color="red">X</font> close video</button>
-                <div id="player"></div>
-                
+            <button onclick="startClick(headervideoblock,'player','M7lc1UVf-VE')"><div id="headerplaybutton" class="header-playbutton mt-80"></div></button>
+            <div id="headervideoblock" class="absolute ml-8 h-[390px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[640px] bg-slate-300/[.25] mt-32 rounded hidden">
+              <div class="ml-4"><button onclick="stopClick()"><font color="red">X</font> close video</button></div>
+                <div id="player" class=""></div>
             </div>
-            <script src="headervideo.js"></script>
 
+            <script src="headervideo.js"></script>
 
           </div>
         </div>
@@ -240,17 +239,35 @@
       <div class="flex flex-col lg:flex-row justify-center gap-8 mt-14">
 
         <div class="text-center place-items-center">
-          <center><div class="playtestimonials"></div></center>
+          
+          <div id="testimonialsvideoblock" class="absolute mt-0 ml-4 h-[180px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
+            <div class="ml-4"><button onclick="stopClick()"><font color="red">X</font> close video</button></div>
+              <div id="player2" class=""></div>
+          </div>
+          <button onclick="startClick(testimonialsvideoblock,'player2','-jix4KyxLuQ')"><center><img src="images/playtestimonials.png"></center></button>
+
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>
         </div>
         <div class="text-center">
-          <center><div class="playtestimonials"></div></center>
+         
+          <div id="testimonialsvideoblock2" class="absolute mt-0 ml-4 h-[180px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
+            <div class="ml-4"><button onclick="stopClick()"><font color="red">X</font> close video</button></div>
+              <div id="player3" class=""></div>
+          </div>
+          <button onclick="startClick(testimonialsvideoblock2,'player3','hdI2bqOjy3c')"><center><img src="images/playtestimonials.png"></center></button>
+
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>
         </div>
         <div class="text-center">
-          <center><div class="playtestimonials"></div></center>
+          
+          <div id="testimonialsvideoblock3" class="absolute mt-0 ml-4 h-[180px] sm:w-[500px] md:w-[600px] lg:w-[640px] xl:w-[440px] 2xl:w-[290px] bg-slate-300/[.25] rounded hidden">
+            <div class="ml-4"><button onclick="stopClick()"><font color="red">X</font> close video</button></div>
+              <div id="player4" class=""></div>
+          </div>
+          <button onclick="startClick(testimonialsvideoblock3,'player4','rRgD1yVwIvE')"><center><img src="images/playtestimonials.png"></center></button>
+
           <div class="font-normal text-slate-400 text-xl mt-2">"Lorem ipsum dolor sit amet"</div>
           <div class="text-slate-300 text-sm">John Doe. USA. 740 GMAT</div>
         </div>
@@ -273,13 +290,13 @@
               Integer aliquet commodo pulvinar. Quisque a purus velit.
             </div>
           </div>
-          <div class="flex justify-end w-full hidden xl:flex">
-            <div class="laptop-phone-apple mt-8"></div>
+          <div class="flex justify-end w-full hidden lg:flex">
+            <div class="mt-8"><img src="./images/laptop-phone-apple.png"></div>
           </div>
         </div>
         <div class="flex mt-20 xl:w-full">
-          <div class="hidden xl:flex stopwatch resize"><img src="./images/stopwatch.png"></div>
-          <div class="lg:ml-56 lg:mt-10 lg:w-6/12 lg:mr-28">
+          <div class="hidden lg:flex stopwatch resize"><img src="./images/stopwatch.png"></div>
+          <div class="lg:ml-8 xl:ml-56 lg:mt-10 lg:w-6/12 lg:mr-28">
             <div class="text-red-700 font-semibold">Practise exams</div>
             <div class="mt-2 text-3xl text-sky-600 font-serif">Feugiat consequat dictum et lacus</div>
             <div class="mt-4">
@@ -300,8 +317,8 @@
               pulvinar. Quisque a purus velit.
             </div>
           </div>
-          <div class="xl:w-6/12 hidden xl:flex">
-            <div class="progress-bars ml-40 hidden lg:flex"></div>
+          <div class="xl:w-6/12 mr-8 hidden lg:flex">
+            <div class="progress-bars ml-40 hidden lg:flex"><img src="./images/progress-bars.png"></div>
           </div>
         </div>
 

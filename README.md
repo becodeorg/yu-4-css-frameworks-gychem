@@ -6,7 +6,7 @@ To-Do
 ------------------
 functionalities:
     - working links
-    - play videos in testimonials
+    - fix close video when more videos are opened at the same time
 
 Responsiveness
     for Tablet [V]
@@ -14,7 +14,7 @@ Responsiveness
 
     1 improve header
     2 improve navbar
-    3 make video players reponsive
+    4 improve images
 
 
 

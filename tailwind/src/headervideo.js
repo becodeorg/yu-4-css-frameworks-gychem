@@ -6,29 +6,24 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var player;
 var siteid = "none";
-function startClick(id) {
-
-    console.log("step1");
-
+function startClick(id,playertarget,playerVideoId) {
     siteid = id;
-    player = new YT.Player('player', {
-    height: '390',
-    width: '640',
-    videoId: 'M7lc1UVf-VE',
-        playerVars: {
-        'playsinline': 1,
-        },
-    events: {
-        'onReady': startFunction,
-        'onStateChange': onPlayerStateChange
-    }
+    player = new YT.Player(`${playertarget}`, {
+        height: '100%', 
+        width: '100%', 
+        videoId: `${playerVideoId}`, 
+            playerVars: {
+            'playsinline': 1,
+            },
+        events: {
+            'onReady': startFunction,
+            'onStateChange': onPlayerStateChange
+        }
     });
-
-    
 }            
 
 function startFunction() {  
-    console.log("step2");  
+    console.log("step2 - startfunction");  
     player.mute(); player.seekTo(1, true);  
     console.log(siteid);
     siteid.style.display = "block";   
@@ -37,8 +32,6 @@ function startFunction() {
 function onPlayerStateChange(event) {
   if (event.data == YT.PlayerState.PLAYING) {
    setTimeout(unMuteVideo, 1000);
-
-    
   }
 }
 

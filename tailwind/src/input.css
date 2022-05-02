@@ -69,6 +69,8 @@
 
 .stopwatch {
     background-image: url('../src/images/stopwatch.png');
+    width: 200px;
+    height: 237px;
 }
 
 .progress-bars {
