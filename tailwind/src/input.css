@@ -30,8 +30,11 @@
 
 .playtestimonials {
     background-image: url('../src/images/playtestimonials.png');
-    width: 306px;
-    height: 194px;
+    height: 200px;
+    max-width: 306px;
+    max-height: 194px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dialogue {
@@ -66,8 +69,6 @@
 
 .stopwatch {
     background-image: url('../src/images/stopwatch.png');
-    width: 200px;
-    height: 237px;
 }
 
 .progress-bars {

@@ -472,36 +472,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: absolute;
 }
 
-.ml-28 {
-  margin-left: 7rem;
-}
-
-.mr-28 {
-  margin-right: 7rem;
-}
-
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .ml-6 {
   margin-left: 1.5rem;
+}
+
+.mr-28 {
+  margin-right: 7rem;
 }
 
 .mt-8 {
@@ -516,8 +516,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 7rem;
 }
 
-.mr-8 {
-  margin-right: 2rem;
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.ml-28 {
+  margin-left: 7rem;
 }
 
 .mt-2 {
@@ -528,44 +532,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .ml-1 {
   margin-left: 0.25rem;
 }
 
-.ml-44 {
-  margin-left: 11rem;
-}
-
 .mb-20 {
   margin-bottom: 5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
-.ml-56 {
-  margin-left: 14rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .ml-40 {
   margin-left: 10rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .block {
@@ -588,12 +584,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 589px;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
 .h-9 {
   height: 2.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-56 {
@@ -604,28 +600,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 80%;
 }
 
-.w-60 {
-  width: 15rem;
-}
-
-.w-5\/6 {
-  width: 83.333333%;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .w-28 {
   width: 7rem;
 }
 
-.w-3\/5 {
-  width: 60%;
+.w-5\/6 {
+  width: 83.333333%;
 }
 
-.w-2\/5 {
-  width: 40%;
+.w-48 {
+  width: 12rem;
 }
 
 .w-\[300px\] {
@@ -636,8 +628,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2.5rem;
 }
 
-.w-6\/12 {
-  width: 50%;
+.w-2\/5 {
+  width: 40%;
+}
+
+.resize {
+  resize: both;
 }
 
 .list-inside {
@@ -654,10 +650,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column;
-}
-
-.place-content-center {
-  place-content: center;
 }
 
 .place-items-center {
@@ -680,12 +672,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.5rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-full {
@@ -839,14 +831,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-xl {
@@ -862,11 +849,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .text-lg {
@@ -949,8 +931,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .playtestimonials {
   background-image: url('../src/images/playtestimonials.png');
-  width: 306px;
-  height: 194px;
+  height: 200px;
+  max-width: 306px;
+  max-height: 194px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .dialogue {
@@ -985,8 +970,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .stopwatch {
   background-image: url('../src/images/stopwatch.png');
-  width: 200px;
-  height: 237px;
 }
 
 .progress-bars {
@@ -1005,43 +988,112 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:ml-28 {
+    margin-left: 7rem;
+  }
+
+  .sm\:mr-28 {
+    margin-right: 7rem;
+  }
+
+  .sm\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
+  .sm\:ml-14 {
+    margin-left: 3.5rem;
+  }
+
+  .sm\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .sm\:w-6\/12 {
+    width: 50%;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
   }
 
+  .md\:w-60 {
+    width: 15rem;
+  }
+
   .md\:justify-end {
     justify-content: flex-end;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:ml-44 {
-    margin-left: 11rem;
+  .lg\:ml-28 {
+    margin-left: 7rem;
   }
 
-  .lg\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .lg\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .lg\:ml-56 {
-    margin-left: 14rem;
+  .lg\:mt-24 {
+    margin-top: 6rem;
   }
 
   .lg\:mr-28 {
     margin-right: 7rem;
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:ml-8 {
+    margin-left: 2rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:mr-0 {
+    margin-right: 0px;
   }
 
   .lg\:mt-28 {
     margin-top: 7rem;
+  }
+
+  .lg\:ml-56 {
+    margin-left: 14rem;
+  }
+
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .lg\:flex {
@@ -1060,12 +1112,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 50%;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:justify-end {
+    justify-content: flex-end;
   }
 }
 
@@ -1074,8 +1126,29 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0px;
   }
 
+  .xl\:ml-44 {
+    margin-left: 11rem;
+  }
+
   .xl\:flex {
     display: flex;
+  }
+
+  .xl\:w-3\/5 {
+    width: 60%;
+  }
+
+  .xl\:w-full {
+    width: 100%;
+  }
+
+  .xl\:w-6\/12 {
+    width: 50%;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
